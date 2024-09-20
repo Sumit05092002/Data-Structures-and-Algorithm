@@ -4,7 +4,7 @@ void sort(int arr[],int size){
    int s=0;
    int e=size-1;
    while(s<e){
-    if(arr[s]<arr[e]){
+    if(arr[s]>arr[e]){
         swap(arr[s],arr[e]);
         e--;
     }
